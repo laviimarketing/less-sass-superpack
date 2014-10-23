@@ -1,0 +1,13 @@
+.box-style(@width: 100%, @height: 100%, @xpadding: 0px, @ypadding: 0px, @border: none) {
+	width: @width;
+  height: @height;
+	padding: @ypadding @xpadding;
+	border: @border;
+}
+.cover-image(@url) {
+	background: url(@url) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
